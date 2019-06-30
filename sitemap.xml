@@ -3,12 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://laanfor.cc/categories/</loc>
-    <priority>0</priority>
+    <loc>https://laanfor.cc/about/</loc>
+    <lastmod>2019-06-30T16:06:45+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://laanfor.cc/</loc>
+    <lastmod>2019-06-30T16:06:45+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://laanfor.cc/posts/my-first-post/</loc>
+    <lastmod>2019-06-30T14:04:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://laanfor.cc/posts/</loc>
+    <lastmod>2019-06-30T14:04:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://laanfor.cc/categories/</loc>
     <priority>0</priority>
   </url>
   
