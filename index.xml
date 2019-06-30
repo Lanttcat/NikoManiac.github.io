@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LaanFor</title>
-    <link>https://www.laanfor.cc/</link>
+    <link>https://laanfor.cc/</link>
     <description>Recent content on LaanFor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://www.laanfor.cc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://laanfor.cc/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
