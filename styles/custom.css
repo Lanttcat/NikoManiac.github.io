@@ -1,0 +1,12 @@
+.about-page a{
+    /* text-align: center; */
+    color: #598987;
+}
+.about-color-image {
+   width: 90%;
+   margin-left: 5%;
+}
+
+.about-sign {
+    text-align: right;
+}
