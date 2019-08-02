@@ -6,19 +6,28 @@
     <description>Recent content on LaanFor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Jun 2019 16:06:45 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2019 18:05:00 +0800</lastBuildDate>
     
 	<atom:link href="https://laanfor.cc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
+      <title>.Net Core学习...1.0</title>
+      <link>https://laanfor.cc/posts/learn-basic-dotnet-core/</link>
+      <pubDate>Fri, 02 Aug 2019 18:05:00 +0800</pubDate>
+      
+      <guid>https://laanfor.cc/posts/learn-basic-dotnet-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
       <link>https://laanfor.cc/about/</link>
       <pubDate>Sun, 30 Jun 2019 16:06:45 +0800</pubDate>
       
       <guid>https://laanfor.cc/about/</guid>
       <description> 你好，欢迎来到体（cheng）育(xue)迷(yuan)的世界。  我一直自称程序员运动鼓励师，平板支撑的布道师。 喜欢篮球，偶尔打羽毛球，马拉松试图破3的暂时全栈工程师
- 对改变世界有点幻想，只是一直被世界改变,很高兴大家一起生活在一个子虚乌有的时代。 欢迎访问我的灵魂：   自由写作   这是我的主题色-- LaanFor
+ 对改变世界有点幻想，只是一直被世界改变,很高兴大家一起生活在一个子虚乌有的时代。 欢迎访问我的灵魂：   自由写作   这是我的主题色-- 自己的语言，还在路上... LaanFor
  </description>
     </item>
     
