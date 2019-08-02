@@ -12,20 +12,20 @@
     
     
     <item>
-      <title>.Net Core</title>
-      <link>https://laanfor.cc/tags/.net-core/</link>
-      <pubDate>Fri, 02 Aug 2019 18:05:00 +0800</pubDate>
-      
-      <guid>https://laanfor.cc/tags/.net-core/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CSharp</title>
       <link>https://laanfor.cc/tags/csharp/</link>
       <pubDate>Fri, 02 Aug 2019 18:05:00 +0800</pubDate>
       
       <guid>https://laanfor.cc/tags/csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DotNet Core</title>
+      <link>https://laanfor.cc/tags/dotnet-core/</link>
+      <pubDate>Fri, 02 Aug 2019 18:05:00 +0800</pubDate>
+      
+      <guid>https://laanfor.cc/tags/dotnet-core/</guid>
       <description></description>
     </item>
     
