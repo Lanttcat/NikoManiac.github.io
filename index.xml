@@ -6,10 +6,30 @@
     <description>Recent content on LaanFor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Aug 2019 18:05:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 05 Aug 2019 23:15:13 +0800</lastBuildDate>
     
 	<atom:link href="https://laanfor.cc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SQL Server查漏补缺</title>
+      <link>https://laanfor.cc/posts/sql-sever-record-1/</link>
+      <pubDate>Mon, 05 Aug 2019 23:15:13 +0800</pubDate>
+      
+      <guid>https://laanfor.cc/posts/sql-sever-record-1/</guid>
+      <description>Transact-SQL 详情见wiki： https://zh.wikipedia.org/wiki/Transact-SQL
+是ANSI SQL实现的一种实现，当前在Microsoft SQL Server和Sybase Adaptive Server中仍然被使用为核心的查询语言。
+with 生成一个临时的结果集，这个结果集叫做common table expression (CTE)
+JOIN http://joins.spathon.com/ 注意理解图中的图
+INNER JOIN
+可以理解成两个表取交集
+LEFT JOIN
+可以理解成把右边的表附加到左边的表，左边的表是全集
+RIGHT JOIN
+与LEFT JOIN相反
+FULL JOIN
+CASE CASE When table.a = 1 Then &amp;#34;1&amp;#34; When table.a = 2 Then &amp;#34;2&amp;#34; Else &amp;#34;3&amp;#34; END; ISNULL() 对于is null的判断，可以有表达式的判断也有function的判断</description>
+    </item>
     
     <item>
       <title>.Net Core学习...1.0</title>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on LaanFor</title>
-    <link>https://laanfor.cc/posts/</link>
-    <description>Recent content in Posts on LaanFor</description>
+    <title>SQL on LaanFor</title>
+    <link>https://laanfor.cc/tags/sql/</link>
+    <description>Recent content in SQL on LaanFor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 05 Aug 2019 23:15:13 +0800</lastBuildDate>
     
-	<atom:link href="https://laanfor.cc/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://laanfor.cc/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -29,24 +29,6 @@ RIGHT JOIN
 与LEFT JOIN相反
 FULL JOIN
 CASE CASE When table.a = 1 Then &amp;#34;1&amp;#34; When table.a = 2 Then &amp;#34;2&amp;#34; Else &amp;#34;3&amp;#34; END; ISNULL() 对于is null的判断，可以有表达式的判断也有function的判断</description>
-    </item>
-    
-    <item>
-      <title>.Net Core学习...1.0</title>
-      <link>https://laanfor.cc/posts/learn-basic-dotnet-core/</link>
-      <pubDate>Fri, 02 Aug 2019 18:05:00 +0800</pubDate>
-      
-      <guid>https://laanfor.cc/posts/learn-basic-dotnet-core/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://laanfor.cc/posts/my-first-post/</link>
-      <pubDate>Sun, 30 Jun 2019 14:04:00 +0800</pubDate>
-      
-      <guid>https://laanfor.cc/posts/my-first-post/</guid>
-      <description> test for first post! </description>
     </item>
     
   </channel>

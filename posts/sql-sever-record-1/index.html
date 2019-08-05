@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="LaanFor">
+    <meta name="description" content="LaanFor&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal,basketball">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SQL Server查漏补缺"/>
+<meta name="twitter:description" content="sql知识记录"/>
+
+    <meta property="og:title" content="SQL Server查漏补缺" />
+<meta property="og:description" content="sql知识记录" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://laanfor.cc/posts/sql-sever-record-1/" />
+<meta property="article:published_time" content="2019-08-05T23:15:13&#43;08:00"/>
+<meta property="article:modified_time" content="2019-08-05T23:15:13&#43;08:00"/>
+
+
+    
+      <base href="https://laanfor.cc/posts/sql-sever-record-1/">
+    
+    <title>
+  SQL Server查漏补缺 · LaanFor
+</title>
+
+    
+      <link rel="canonical" href="https://laanfor.cc/posts/sql-sever-record-1/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://laanfor.cc/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://laanfor.cc/styles/custom.css" />
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="https://laanfor.cc/images/logo.jpg" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://laanfor.cc/images/logo.jpg" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.55.6" />
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://laanfor.cc">
+      LaanFor
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://laanfor.cc/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://laanfor.cc/about/">About</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">SQL Server查漏补缺</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2019-08-05T23:15:13&#43;08:00'>
+                August 5, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              One minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://laanfor.cc/tags/sql/">SQL</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+
+<h2 id="transact-sql">Transact-SQL</h2>
+
+<p>详情见wiki： <a href="https://zh.wikipedia.org/wiki/Transact-SQL">https://zh.wikipedia.org/wiki/Transact-SQL</a></p>
+
+<p>是ANSI <a href="https://zh.wikipedia.org/wiki/SQL">SQL</a>实现的一种实现，当前在Microsoft SQL Server和Sybase Adaptive Server中仍然被使用为核心的查询语言。</p>
+
+<h2 id="with">with</h2>
+
+<p>生成一个临时的结果集，这个结果集叫做common table expression (CTE)</p>
+
+<h2 id="join">JOIN</h2>
+
+<p><a href="http://joins.spathon.com/">http://joins.spathon.com/</a>
+注意理解图中的图</p>
+
+<p>INNER JOIN</p>
+
+<p>可以理解成两个表取交集</p>
+
+<p>LEFT JOIN</p>
+
+<p>可以理解成把右边的表附加到左边的表，左边的表是全集</p>
+
+<p>RIGHT JOIN</p>
+
+<p>与LEFT JOIN相反</p>
+
+<p>FULL JOIN</p>
+
+<h2 id="case">CASE</h2>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SQL" data-lang="SQL"><span style="font-weight:bold">CASE</span>
+    <span style="font-weight:bold">When</span> <span style="font-weight:bold">table</span>.a = 1 <span style="font-weight:bold">Then</span> <span style="font-style:italic">&#34;1&#34;</span>
+    <span style="font-weight:bold">When</span> <span style="font-weight:bold">table</span>.a = 2 <span style="font-weight:bold">Then</span> <span style="font-style:italic">&#34;2&#34;</span>
+    <span style="font-weight:bold">Else</span> <span style="font-style:italic">&#34;3&#34;</span>
+<span style="font-weight:bold">END</span>;</code></pre></div>
+<h2 id="isnull">ISNULL()</h2>
+
+<p>对于is null的判断，可以有表达式的判断也有function的判断</p>
+
+      </div>
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "laanfor-cc" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        <div id="commento"></div>
+<script src="https://laanfor.cc/js/commento.js"></script>
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>有朝一日，Markdown会统治世界。</p>
+    
+     © 2019
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>
