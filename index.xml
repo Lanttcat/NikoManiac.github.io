@@ -17,7 +17,7 @@
       <pubDate>Mon, 05 Aug 2019 23:15:13 +0800</pubDate>
       
       <guid>https://laanfor.cc/posts/sql-sever-record-1/</guid>
-      <description>Transact-SQL 详情见wiki： https://zh.wikipedia.org/wiki/Transact-SQL
+      <description> Transact-SQL 详情见wiki： https://zh.wikipedia.org/wiki/Transact-SQL
 是ANSI SQL实现的一种实现，当前在Microsoft SQL Server和Sybase Adaptive Server中仍然被使用为核心的查询语言。
 with 生成一个临时的结果集，这个结果集叫做common table expression (CTE)
 JOIN http://joins.spathon.com/ 注意理解图中的图
@@ -28,7 +28,8 @@ LEFT JOIN
 RIGHT JOIN
 与LEFT JOIN相反
 FULL JOIN
-CASE CASE When table.a = 1 Then &amp;#34;1&amp;#34; When table.a = 2 Then &amp;#34;2&amp;#34; Else &amp;#34;3&amp;#34; END; ISNULL() 对于is null的判断，可以有表达式的判断也有function的判断</description>
+CASE CASE When table.a = 1 Then &amp;#34;1&amp;#34; When table.a = 2 Then &amp;#34;2&amp;#34; Else &amp;#34;3&amp;#34; END; ISNULL() 对于is null的判断，可以有表达式的判断也有function的判断
+questions  使用left join的时候，如果左表有重复的，会join几个。 https://www.diffen.com/difference/Inner_Join_vs_Outer_Join  </description>
     </item>
     
     <item>
